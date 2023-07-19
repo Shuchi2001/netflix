@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #414042;*/
+    font-family: sans-serif;
+}
+.header-part{
+    border: solid 2px black;
+    width: 100%;
+    height: 700px;
+    
+}
+.header{
+    background-image: url(./Images/bg.jpg);
+    height: 700px;
+    width: 100vw;
+}
+.header1{
+    border: solid 0px;
+    height: 14vh;
+    width: 14%;
+    /*margin-left: 10%;*/
+    position: relative;
+}
+.header1 button{
+    background: red;
+    color: white;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 30%;
+    left: 1100px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: gray;
+}
+/*.button{
+    text-decoration: none;
+    border: solid 2px white;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: auto;
+}*/
+.bg-img{
+    border: solid 0px;
+
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.bg-img img{
+    height: 100%;
+    width: 100%;
+}
+.text1{
+    border: solid 0px;
+    height: 200px;
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+.text1 h1{
+    text-align: center;
+    font-size: 55px;
+}
+.text1 p{
+    text-align: center;
+    font-size: 40px;
+}
+.text h2{
+    text-align: center;
+    font-size: 25%;
+}
+.input-field{
+    border: solid 0px;
+    height: 10%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+.mail{
+    height: 100%;
+    width: 60%;
+    background-color: #07050879;
+    border-radius: 10px;
+    color: white;
+}
+.submit1{
+    border-radius: 10px;
+    height: 100%;
+    width: 30%;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+}
+/*--------*/
+.body1{
+    border: solid 2px;
+    background: #08070a;
+    height: 600px;
+    width: 100vw;
+}
+.tv{
+    border: solid 0px;
+    height: 400px;
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 100px;
+    display: flex;
+}
+.text2{
+    border: solid 0px;
+    height: 400px;
+    width: 50%; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 h1{
+    font-size: 55px;
+}
+.text2 p{
+    font-size: 20px;
+}
+.tv-img{
+    border: solid 0px;
+    height: 400px;
+    width: 50%;
+    position: relative;
+}
+.tv-img img{
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+}
+.tv-img video{
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.box{
+    border: solid 2px white;
+    background: black;
+    border-radius: 10px;
+    height: 25%;
+    width: 60%;
+    padding: 2px;
+    margin-top: 250px;
+    margin-left: 20%;
+    position: absolute;
+    display: flex;
+}
+.ig{
+    border: solid 0px;
+    height: 100%;
+    width: 20%;
+}
+.ig img{
+    height: 100%;
+    width: 95%;
+    position: relative;
+}
+.text3{
+    border: solid 0px;
+    height: 80%;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.download{
+    border: solid 0px;
+    height: 100%;
+    width: 30%;
+}
+.download img{
+    height: 100%;
+    width: 90%;
+    position: relative;
+}
+/*-------*/
+.part3 video{
+    height: 50%;
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 23%;
+}
+/*footer part1*/
+.b1{
+    height: auto;
+    width: 100%;
+}
+.tv1{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+.box1{
+    border: solid 0px;
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: rgb(80,80,80);
+    padding-left: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.box1:hover{
+    background: rgb(50,50,50);
+}
+.box1 p{
+    font-size: 30px;
+}
+.footer{
+    height: 50px;
+}
+/*footer part2*/
+.footer-part{
+    height: 400px;
+    background: #08070a;
+    display: flex;
+    align-items: center;
+}
+.box2{
+    border: solid 0px;
+    height: 80%;
+    width: 80%;
+    color: white;
+    margin-left: 12%;
+    font-size: 27px;
+}
+.footer-links{
+    display: flex;
+}
+.links{
+    border: solid 0px;
+    width: 30%;
+    margin: 10px;
+}
+.links a{
+    font-size: 17px;
+    margin: 20px;
+    padding-top: 10px;
+    color: #ffffffa1;
+}
+.slct{
+    border: solid 2px black;
+    height: 40px;
+    width: auto;
+}
+.select{
+    background: transparent;
+    height: 30px;
+    width: 200px;
+    color: white;
+}
+.para p{
+    margin: 10px;
+    color: gray;
+    font-size: 20px;
+}
